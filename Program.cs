@@ -154,10 +154,10 @@ async Task HandleUpdateAsync(ITelegramBotClient bot, Update update, Cancellation
                 await ShowCSPlayer(bot, chatId, cancellationToken, "YEKINDAR", "Mareks Gaļinskis", "https://liquipedia.net/commons/images/thumb/1/13/YEKINDAR_at_Copenhagen_Major_2024_AME_RMR.jpg/600px-YEKINDAR_at_Copenhagen_Major_2024_AME_RMR.jpg", "ZOWIE EC2-A", 960, 800, "1000 Hz", 1.2, 1, true, "SteelSeries QcK+", "ZOWIE XL2546", "240 Hz", "1920x1080", "", "HyperX Alloy FPS RGB", "HyperX Cloud II", 4, 2, 0, 1, -3, false, false, 0, "Green", 1, 255, "867533", "mareks.galinskis", "YEKINDAR", "", "yek1ndar", "", "", "76561198134401925", "yekindar", "yek1ndar", "", "yekindararmy");
                 break;
             case "cs_proximo":
-                await bot.SendMessage(chatId, "📅 Próximo jogo CS: FURIA vs NAVI - 25/04 às 15h", cancellationToken: cancellationToken);
+                await bot.SendMessage(chatId, "📅 Próximo jogo CS: \nNo upcoming matches for FURIA, check back later.", cancellationToken: cancellationToken);
                 break;
             case "cs_ultimos":
-                await bot.SendMessage(chatId, "⚔️ Últimos jogos CS:\n- FURIA 2x1 Team Liquid\n- FURIA 0x2 G2", cancellationToken: cancellationToken);
+                await bot.SendMessage(chatId, "⚔️ Últimos jogos CS: PGL Bucharest 2025\nFURIA 0 - 2 The MongolZ\nFURIA 0 - 2 Virtus.pro\nFURIA 1 - 2 Complexity\nFURIA 2 - 0 Betclic", cancellationToken: cancellationToken);
                 break;
             case "inicio":
                 await ShowMainMenu(bot, chatId, cancellationToken);
