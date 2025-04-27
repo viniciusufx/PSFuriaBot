@@ -6,7 +6,7 @@ using Telegram.Bot.Types.Enums;
 using Telegram.Bot.Types.ReplyMarkups;
 
 // Inicializa o bot com o token de acesso
-var botClient = new TelegramBotClient("7838185531:AAFYls2EVCn-4zXhQ7Ohz2OFd0j6sFHBMZ0");
+var botClient = new TelegramBotClient("SEU_TOKEN_AQUI");
 
 // Cria um token de cancelamento para interromper o bot manualmente
 using var cts = new CancellationTokenSource();
